@@ -15,8 +15,8 @@ import NumberInput from './components/NumberInput';
 import SearchBar from './components/SearchBar';
 import Card from './components/Card';
 
-const client_id = '7832c433b5cf47e1b7159043ddcf689d'; // Your client id
-const client_secret = 'af42b522b35142e2ac1694a088056eb1'; // Your secret
+const client_id = ''; // Your client id
+const client_secret = ''; // Your secret
 
 
 interface IPlaylists {
@@ -217,7 +217,7 @@ const handleOffsetChanged = useCallback((val: any)=> {
 
   return (
     <>
-    <ScrollView>
+    <ScrollView style={{}}>
 
       <FilterHeader>
         <SearchBar setSearch={setSearch}/>
